@@ -1,12 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Example Portfolio</title>
-</head>
+---
+layout: default
+title: タイトルは２つある
+description: metaタグで見れる
+---
 <body>
-    <h1>Hello GitHub.io !</h1>
-</body>
-</html>
+  <h1>文字の大きさ h1</h1>
+  <h2>文字の大きさ h2</h2>
+  <h3>文字の大きさ h3</h3>
+<pre>
+&lt;pre&gt; のテスト
+</pre>
+<p>
+&lt;p&gt; のテスト
+</p>
+
+{% highlight javascript %}
+const fun=function(){
+    console.log("test");
+};
+{% endhighlight %}
